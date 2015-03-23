@@ -3,13 +3,13 @@
         "show_name": "CSS 考试",
         "id_name":"css_test_challenge",
         "type":"camps" ,
-        "desc": "Javascript初级挑战杯，将一些经典有趣问题，通过使用Javascript语言来实现，从而进一步深入了解Javascript。",
+        "desc": "CSS 全名翻译过来叫 级联样式表 。它是一种用来表现HTML或XML等文件样式的计算机语言。CSS是模型与视图分离这个概念的典范之作。学习本课程需要有HTML基础",
         "target_effect": {
             "name": "JS Console",
             "desc": "JS Console是一个类似于网页JS控制台'console'的页面应用，是本站用来助力JS教学练习的一个助手工具，你可以在里面毫无顾虑的操练JS代码，而没有后顾之忧。",
             "href": "/super_show/index.html"
         },
-        "order": 2,
+        "order": 10,
         "ico": "/images/CSS_logo.png",
         "title_ico": "/images/CSS_Basic.png",
         "version": "2.0.5"
