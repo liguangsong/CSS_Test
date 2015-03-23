@@ -7,7 +7,7 @@
     <file path="/practice.js" changelist="5dd47f56-5dfd-428c-b9bf-47b4ca34d984" time="1427102503752" ignored="false" />
     <file path="/practice_1_desc.md" changelist="5dd47f56-5dfd-428c-b9bf-47b4ca34d984" time="1427099188104" ignored="false" />
     <file path="/course.json" changelist="5dd47f56-5dfd-428c-b9bf-47b4ca34d984" time="1427098772738" ignored="false" />
-    <file path="/practice_1.json" changelist="5dd47f56-5dfd-428c-b9bf-47b4ca34d984" time="1427099469134" ignored="false" />
+    <file path="/practice_1.json" changelist="5dd47f56-5dfd-428c-b9bf-47b4ca34d984" time="1427104528963" ignored="false" />
     <file path="/practice_1.js" changelist="5dd47f56-5dfd-428c-b9bf-47b4ca34d984" time="1427102465709" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +49,7 @@
       <file leaf-file-name="practice_1.json" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/section_1/practice_1.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="48" selection-start="470" selection-end="470" vertical-scroll-proportion="0.475">
+            <state line="23" column="31" selection-start="620" selection-end="620" vertical-scroll-proportion="0.575">
               <folding />
             </state>
           </provider>
@@ -499,7 +499,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/section_1/practice_1.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="48" selection-start="470" selection-end="470" vertical-scroll-proportion="0.475">
+        <state line="23" column="31" selection-start="620" selection-end="620" vertical-scroll-proportion="0.575">
           <folding />
         </state>
       </provider>
