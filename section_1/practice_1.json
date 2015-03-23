@@ -17,7 +17,7 @@
 ],
     "runner": {
         "name": "challenge.html",
-        "path": "/practices",
+        "path": "/practices/section_1/practice_1",
         "type":"terminal",
         "src":"browser",
         "run_files": ["./console", "../practices/section_1/practice_1/practice", "../specs/section_1/practice_1"]
