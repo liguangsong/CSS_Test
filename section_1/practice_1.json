@@ -1,0 +1,35 @@
+{
+    "show_name": "CSS实现居中",
+    "type": "normal",
+    "point": 100,
+
+    "simple_desc": "CSS居中即通过CSS实现一个圆即圆中的图片居中，并浏览器大小改变自动调整居中。",
+    "desc_file": true,
+    "answer_file": false,
+
+    "project_dir": "/practices",
+    "specs_dir": "/specs",
+    "files": [
+        {
+            "name": "practice.js",
+            "path": "/practices/section_1/practice_1/"
+        },
+        {
+            "name": "practice_1.css",
+            "path": "/practices/section_1/practice_1/"
+        },
+        {
+            "name": "challenge.html",
+            "path": "/practices/section_1/practice_1/",
+            "is_read_only": true
+        }
+],
+    "runner": {
+        "name": "challenge.html",
+        "path": "/practices",
+        "type":"terminal",
+        "src":"browser",
+        "run_files": ["./console", "../practices/section_1/practice_1/practice", "../specs/section_1/practice_1"]
+    },
+    "order": 0
+}
