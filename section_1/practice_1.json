@@ -11,20 +11,27 @@
     "specs_dir": "/specs",
     "files": [
         {
-            "name": "practice.js",
-            "path": "/practices/section_1/practice_1/"
+            "name": "challenge.html",
+            "path": "/practices/section_1/practice_1" ,
+            "is_read_only":true
         },
         {
             "name": "practice_1.css",
-            "path": "/practices/section_1/practice_1/"
+            "path": "/practices/section_1/practice_1"
+        },
+        {
+            "name": "practice.js",
+            "path": "/practices/section_1/practice_1"
+        },
+        {
+            "name": "practice_spec.js",
+            "path": "/practices/section_1/practice_1" ,
+            "is_read_only":true
         }
-
 ],
     "runner": {
         "name": "challenge.html",
         "path": "/practices/section_1/practice_1",
-        "type":"terminal",
-        "src":"browser",
         "run_files": ["./console", "../practices/section_1/practice_1/practice", "../specs/section_1/practice_1"]
     },
     "order": 0
