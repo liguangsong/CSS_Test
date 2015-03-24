@@ -17,12 +17,8 @@
         {
             "name": "practice_1.css",
             "path": "/practices/section_1/practice_1/"
-        },
-        {
-            "name": "challenge.html",
-            "path": "/practices/section_1/practice_1/" ,
-            "is_read_only":true
         }
+
 ],
     "runner": {
         "name": "challenge.html",
