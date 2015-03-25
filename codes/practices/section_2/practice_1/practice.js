@@ -8,6 +8,7 @@ $(window).ready(function() {
     setCircleTextPlace(circleDiameter);
 });
 
+
 $(window).resize(function() {
     //记得添加参数
     var windowWidth = $(window).width();

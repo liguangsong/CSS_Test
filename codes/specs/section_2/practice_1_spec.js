@@ -44,4 +44,5 @@ describe('practice-1-1', function () {
     it("当浏览器宽高为（600， 800）", function () {
         expect(getCircleDiameter(600, 800)).toBe(240);
     });
+
 });
