@@ -1,20 +1,13 @@
 .background {
-    text-align: center;
+
 }
 
 .circle {
-    margin: 0 auto;
-    position: absolute;
-    background-color: black;
-    width: 40%;
-    padding-bottom: 40%;
-    height: 0;
-    border-radius: 50%;
+
 }
 
 .circle p {
-    margin: 0 0;
-    color: blue;
+
 }
 
 .time {
