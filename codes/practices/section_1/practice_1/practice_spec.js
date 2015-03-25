@@ -16,20 +16,25 @@ describe('practice-1-1', function () {
         var circleTextHeight = circleText.height();
         var circleTextTop = sizeToNum(circleText.css('padding-top'));
         var circleTextBottom = sizeToNum(circleText.css('padding-bottom'));
-        expect(getInt(textHeight / 4)).toBe(getInt(windowHeight * 0.1 / 4));
-        expect(getInt(textLeft / 2 + textWidth / 4)).toBe(getInt(windowWidth / 4));
-        expect(circleTextTop).toBe(circleTextBottom);
-        expect(getInt((circleTextTop + circleTextBottom + circleTextHeight) / 4)).toBe(getInt(circleDiameter / 4));
-        expect(getInt(circleLeft / 2 + circleDiameter / 4)).toBe(getInt(windowWidth / 4));
-        expect(getInt(circleTop / 2 + circleDiameter / 4)).toBe(getInt(windowHeight / 4));
+        expect(checkSizeRightOrNo(textHeight, (windowHeight * 0.1))).toBe(true);
+        expect(checkSizeRightOrNo((textLeft * 2 + textWidth), windowWidth)).toBe(true);
+        expect(checkSizeRightOrNo(circleTextTop, circleTextBottom)).toBe(true);
+        expect(checkSizeRightOrNo((circleTextTop + circleTextBottom + circleTextHeight), circleDiameter)).toBe(true);
+        expect(checkSizeRightOrNo((circleLeft * 2 + circleDiameter), windowWidth)).toBe(true);
+        expect(checkSizeRightOrNo((circleTop * 2 + circleDiameter), windowHeight)).toBe(true);
     });
+
+    function checkSizeRightOrNo(x, y) {
+        if ((x - y) <= 4) return true;
+        return false;
+    }
 
     function sizeToNum(size) {
         return Number(size.substring(0, size.length - 2));
     }
 
     function getInt(num) {
-        return Math.floor(num)
+        return Math.round(num)
     }
 
     it("当浏览器宽高为（1200， 600）", function () {
