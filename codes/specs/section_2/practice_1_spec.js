@@ -22,6 +22,7 @@ describe('practice-1-1', function () {
         expect(checkSizeRightOrNo((circleTextTop + circleTextBottom + circleTextHeight), circleDiameter)).toBe(true);
         expect(checkSizeRightOrNo((circleLeft * 2 + circleDiameter), windowWidth)).toBe(true);
         expect(checkSizeRightOrNo((circleTop * 2 + circleDiameter), windowHeight)).toBe(true);
+
     });
 
     function checkSizeRightOrNo(x, y) {
