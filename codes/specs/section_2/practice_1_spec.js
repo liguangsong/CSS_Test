@@ -16,6 +16,8 @@ describe('practice-1-1', function () {
         var circleTextHeight = circleText.height();
         var circleTextTop = sizeToNum(circleText.css('padding-top'));
         var circleTextBottom = sizeToNum(circleText.css('padding-bottom'));
+
+        expect(circle.css('border-radius')).toBe('50%');
         expect(checkSizeRightOrNo(textHeight, (windowHeight * 0.1))).toBe(true);
         expect(checkSizeRightOrNo((textLeft * 2 + textWidth), windowWidth)).toBe(true);
         expect(checkSizeRightOrNo(circleTextTop, circleTextBottom)).toBe(true);
@@ -26,7 +28,7 @@ describe('practice-1-1', function () {
     });
 
     function checkSizeRightOrNo(x, y) {
-        if ((x - y) <= 4) return true;
+        if (Math.abs(x - y) <= 4) return true;
         return false;
     }
 

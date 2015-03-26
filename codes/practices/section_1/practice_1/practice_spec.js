@@ -25,7 +25,7 @@ describe('practice-1-1', function () {
     });
 
     function checkSizeRightOrNo(x, y) {
-        if ((x - y) <= 4) return true;
+        if (Math.abs(x - y) <= 4) return true;
         return false;
     }
 

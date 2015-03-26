@@ -12,7 +12,7 @@
         "order": 10,
         "ico": "/images/CSS_logo.png",
         "title_ico": "/images/CSS_Basic.png",
-        "version": "2.2.11"
+        "version": "2.2.12"
     },
     "relevance":{
         "type":"path",
