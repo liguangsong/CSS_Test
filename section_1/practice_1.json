@@ -13,7 +13,6 @@
         {
             "name": "challenge.html",
             "path": "/practices/section_1/practice_1" ,
-            "is_read_only":true
         },
         {
             "name": "practice_1.css",

@@ -24,7 +24,7 @@ function getCircleDiameter(windowWidth, windowHeight) {
     if (windowWidth * 0.4 > windowHeight * 0.6) return windowHeight * 0.6;
     return windowWidth * 0.4;
 }
-
+//设置黑球的（class="circle"）的css样式
 function setCirclePlace(circleDiameter, windowHeight, windowWidth) {
     $('.circle').css({
         'width': circleDiameter,
@@ -33,15 +33,17 @@ function setCirclePlace(circleDiameter, windowHeight, windowWidth) {
         'left': (windowWidth - circleDiameter)/2
     });
 }
-
+//设置黑球上面的时间展示（class="time"）的css样式
 function setTextPlace(windowHeight) {
     $('.time').css({
-        'height': windowHeight * 0.1
+        'height': windowHeight * 0.1,
+        'font-size': '6vmin'
     });
 }
-
+//设置黑球里面的文字展示（class="circle_text"）的css样式
 function setCircleTextPlace(circleDiameter) {
     $('.circle_text').css({
+        'font-size': '6vmin',
         'height': circleDiameter * 0.2,
         'padding-top': circleDiameter * 0.4,
         'padding-bottom': circleDiameter * 0.4
