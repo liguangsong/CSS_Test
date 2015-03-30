@@ -27,4 +27,4 @@
 - 示例图片：
 
 
-<a href="http://7xi7zt.com1.z0.glb.clouddn.com/css_test_example.png" style="cursor: pointer"><img src="http://7xi7zt.com1.z0.glb.clouddn.com/css_test_example.png" style="width:300px;"></a>
+<a href="http://7xi7zt.com1.z0.glb.clouddn.com/css_test_final_example.png" style="cursor: pointer"><img src="http://7xi7zt.com1.z0.glb.clouddn.com/css_test_final_example.png" style="width:300px;"></a>
