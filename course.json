@@ -1,6 +1,6 @@
 {
     "basic": {
-        "show_name": "CSS 考试test",
+        "show_name": "CSS 考试",
         "id_name": "css_test_challenge_test",
         "type":"camps" ,
         "desc": "CSS 全名翻译过来叫 级联样式表 。它是一种用来表现HTML或XML等文件样式的计算机语言。CSS是模型与视图分离这个概念的典范之作。学习本课程需要有HTML基础",
