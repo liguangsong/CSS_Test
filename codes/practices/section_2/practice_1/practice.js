@@ -36,16 +36,15 @@ function setCirclePlace(circleDiameter, windowHeight, windowWidth) {
 //设置黑球上面的时间展示（class="time"）的css样式
 function setTextPlace(windowHeight) {
     $('.time').css({
-        'height': windowHeight * 0.1,
-        'font-size': '6vmin'
+        'height': windowHeight * 0.1
     });
 }
 //设置黑球里面的文字展示（class="circle_text"）的css样式
 function setCircleTextPlace(circleDiameter) {
-    $('.circle_text').css({
-        'font-size': '6vmin',
-        'height': circleDiameter * 0.2,
-        'padding-top': circleDiameter * 0.4,
-        'padding-bottom': circleDiameter * 0.4
+    var circle_text = $('.circle_text');
+    var padding = (circleDiameter - circle_text.height()) / 2;
+    circle_text.css({
+        'padding-top': padding,
+        'padding-bottom' : padding
     })
 }
