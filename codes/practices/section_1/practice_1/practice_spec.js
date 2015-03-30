@@ -9,6 +9,7 @@ describe('practice-1-1', function () {
         var textLeft = text.offset().left;
         var textFontSize = sizeToNum(text.css('font-size'));
 
+        expect($('.background').css('text-align')).toBe('center');
         expect(checkTextSize(textFontSize, (getWindowMinSize(windowWidth, windowHeight)*0.06))).toBe(true);
         expect(checkSizeRightOrNo(textHeight, (windowHeight * 0.1))).toBe(true);
         expect(checkSizeRightOrNo((textLeft * 2 + textWidth), windowWidth)).toBe(true);
